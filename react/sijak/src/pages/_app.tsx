@@ -1,6 +1,5 @@
-const cssPath = '/src/css/';
-import "/src/css/globals.scss";
-import "/src/css/index.scss";
+import "@css/globals.scss";
+import "@css/index.scss";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
