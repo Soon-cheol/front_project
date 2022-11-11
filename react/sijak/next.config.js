@@ -7,7 +7,7 @@ const nextConfig = {
   // distDir: "build",
   // basePath: "/src",
   // exportTrailingSlash: true,
-  assetPrefix: "./",
+  // assetPrefix: "./",
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
