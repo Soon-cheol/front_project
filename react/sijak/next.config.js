@@ -5,7 +5,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   distDir: "build",
-  exportTrailingSlash: true,
+  // basePath: "/src",
+  // exportTrailingSlash: true,
   assetPrefix: "http://localhost:3000/",
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
