@@ -3,7 +3,7 @@ const path = require('path')
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
+  swcMinify: true, // 소스코드 압축 경량화 
   // distDir: "build",
   // basePath: "/src",
   // exportTrailingSlash: true,

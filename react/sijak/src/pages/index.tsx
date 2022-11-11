@@ -1,9 +1,9 @@
-// import "/css/index.scss";
+// import Link from 'next/link'
 
 export default function Home() {
     return (
         <div className='container'>
-            ㅁㄴㅇㄹ234
+            asdfsff
         </div>
     );
 }
