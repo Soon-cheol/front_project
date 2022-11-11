@@ -4,10 +4,10 @@ const path = require('path')
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  distDir: "build",
+  // distDir: "build",
   // basePath: "/src",
   // exportTrailingSlash: true,
-  assetPrefix: "http://localhost:3000/",
+  assetPrefix: "./",
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
